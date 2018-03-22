@@ -41,5 +41,8 @@ jobs:
       # run tests!
       - run: gradle test
 
+      # run application
+      - run: gradle bootRun
+
 
 
